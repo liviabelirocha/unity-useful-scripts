@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class Singleton : MonoBehaviour {
+public class Singleton : MonoBehaviour 
+{
     void Awake() 
     {
         MakeSingleton();
