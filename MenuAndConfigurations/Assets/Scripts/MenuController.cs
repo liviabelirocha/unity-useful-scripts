@@ -5,16 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
-
     public void GoToScene(string name)
     {
         SceneManager.LoadScene(name);
