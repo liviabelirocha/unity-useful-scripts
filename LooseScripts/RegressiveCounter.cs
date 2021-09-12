@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Singleton : MonoBehaviour
+public class RegressiveCounter : MonoBehaviour
 {
 
     [SerializeField] private float initial = 60f;
